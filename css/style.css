@@ -1,1 +1,37 @@
+:root {
+   --primario: #9c27B0;
+   --primarioObscuro: #891190;
+   --secundario: #ffce00; 
+   --secundarioObscuro: rgb(233, 287, 2);
+   --blanco: #ffffff;
+
+   --fuenteprincipal: 'Staatliches', cursive; 
+}
+
 /* globales */
+html {
+    background-color: var(--primario);
+}
+
+h1, h2, h3, p {
+    font-family: var(--fuenteprincipal);
+    text-align: center;
+}
+
+h1 {
+    color: var(--blanco);
+}
+
+h2, span, .tienda {
+    color: var(--secundario);
+}
+
+p {
+    color: var(--blanco);
+}
+nav {
+    display: inline-flex;
+    text-align: center;
+}
+
+
